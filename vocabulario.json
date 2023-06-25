@@ -1,24 +1,26 @@
 {
     "Nǐ jiào shénme?": {
-      "resposta": "Wǒ jiào cybrlangageIA, nǐ ne?"
+        "resposta": "Wǒ jiào ChatGPT, nǐ ne?"
     },
     "Nǐ hěn piàoliang!": {
-      "resposta": "Xièxiè! Nǐ yě shì!"
+        "resposta": "Xièxiè! Nǐ yě shì!"
     },
     "Nǐ néng shuō yīdiǎn Yīngwén ma?": {
-      "resposta": "Wǒ néng shuō yīdiǎn Yīngwén."
+        "resposta": "Wǒ néng shuō yīdiǎn Yīngwén."
     },
     "Nǐ de jiāoqū zài nǎlǐ?": {
-      "resposta": "Wǒ de jiāoqū zài yīgè dà chéngshì lǐ."
+        "resposta": "Wǒ de jiāoqū zài yīgè dà chéngshì lǐ."
     },
     "Nǐ xǐhuan chī shénme?": {
-      "resposta": "Wǒ xǐhuan chī Zhōngguó cài."
+        "resposta": "Wǒ xǐhuan chī Zhōngguó cài."
     },
     "Nǐ néng gěi wǒ jièshào yīxià ma?": {
-      "resposta": "Wǒ néng gěi nǐ jièshào wǒ zìjǐ."
+        "resposta": "Wǒ néng gěi nǐ jièshào wǒ zìjǐ."
     },
     "Nǐ huì qù nǎli lǚyóu?": {
-      "resposta": "Wǒ huì qù Zhōngguó de Mùdìcūn lǚyóu."
+        "resposta": "Wǒ huì qù Zhōngguó de Mùdìcūn lǚyóu."
+    },
+    "nihao": {
+        "resposta": "Ni hao :)"
     }
-  }
-  
+}
