@@ -1,23 +1,18 @@
 import json
 from unidecode import unidecode
 
-# Carregar o vocabulário a partir do arquivo JSON
 def load_vocabulary():
     with open('vocabulario.json', 'r', encoding='utf-8') as file:
         return json.load(file)
 
-# Salvar o vocabulário em um arquivo JSON
 def save_vocabulary(vocabulary):
     with open('vocabulario.json', 'w', encoding='utf-8') as file:
         json.dump(vocabulary, file, ensure_ascii=False, indent=4)
 
-# Função para pré-processar a palavra em mandarim
 def preprocess_word(word):
-    # Remover acentos, caracteres especiais e espaços extras
     normalized_word = unidecode(word.lower().strip().replace(" ", ""))
     return normalized_word
 
-# Exemplo de uso do vocabulário carregado
 def main():
     vocabulary = load_vocabulary()
 
