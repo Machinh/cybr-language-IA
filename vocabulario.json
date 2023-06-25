@@ -1,42 +1,24 @@
 {
-    "Zàijiàn": {
-        "tag": "Despedida",
-        "traducao": "Adeus"
+    "Nǐ jiào shénme?": {
+      "resposta": "Wǒ jiào ChatGPT, nǐ ne?"
     },
-    "Huānyíng": {
-        "tag": "Saudação",
-        "traducao": "Bem-vindo"
+    "Nǐ hěn piàoliang!": {
+      "resposta": "Xièxiè! Nǐ yě shì!"
     },
-    "Nǐ hǎo": {
-        "tag": "Saudação",
-        "traducao": "Olá"
+    "Nǐ néng shuō yīdiǎn Yīngwén ma?": {
+      "resposta": "Wǒ néng shuō yīdiǎn Yīngwén."
     },
-    "Zǎoshang hǎo": {
-        "tag": "Saudação",
-        "traducao": "Bom dia"
+    "Nǐ de jiāoqū zài nǎlǐ?": {
+      "resposta": "Wǒ de jiāoqū zài yīgè dà chéngshì lǐ."
     },
-    "Wǎn'ān": {
-        "tag": "Despedida",
-        "traducao": "Boa noite"
+    "Nǐ xǐhuan chī shénme?": {
+      "resposta": "Wǒ xǐhuan chī Zhōngguó cài."
     },
-    "Xièxiè": {
-        "tag": "Agradecimento",
-        "traducao": "Obrigado"
+    "Nǐ néng gěi wǒ jièshào yīxià ma?": {
+      "resposta": "Wǒ néng gěi nǐ jièshào wǒ zìjǐ."
     },
-    "Duìbùqǐ": {
-        "tag": "Desculpa",
-        "traducao": "Desculpe"
-    },
-    "Qǐng": {
-        "tag": "Pedido",
-        "traducao": "Por favor"
-    },
-    "teste": {
-        "tag": "teste",
-        "traducao": "teste"
-    },
-    "ni hao": {
-        "tag": "ni hao",
-        "traducao": "ola"
+    "Nǐ huì qù nǎli lǚyóu?": {
+      "resposta": "Wǒ huì qù Zhōngguó de Mùdìcūn lǚyóu."
     }
-}
+  }
+  
