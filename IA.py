@@ -1,4 +1,5 @@
 import json
+from unidecode import unidecode
 
 # Carregar o vocabulário a partir do arquivo JSON
 def load_vocabulary():
@@ -12,30 +13,33 @@ def save_vocabulary(vocabulary):
 
 # Função para pré-processar a palavra em mandarim
 def preprocess_word(word):
-    return word.lower().strip()
+    # Remover acentos, caracteres especiais e espaços extras
+    normalized_word = unidecode(word.lower().strip().replace(" ", ""))
+    return normalized_word
 
 # Exemplo de uso do vocabulário carregado
 def main():
     vocabulary = load_vocabulary()
 
     while True:
-        input_word = input("Digite uma palavra em mandarim: ")
+        input_word = input("Digite uma pergunta em mandarim: ")
         preprocessed_word = preprocess_word(input_word)
 
-        if preprocessed_word in vocabulary:
-            tag = vocabulary[preprocessed_word]["tag"]
-            translation = vocabulary[preprocessed_word]["traducao"]
+        matched_word = None
+        for word in vocabulary:
+            if preprocessed_word == preprocess_word(word):
+                matched_word = word
+                break
 
-            print("Tag correspondente:", tag)
-            print("Tradução em português:", translation)
+        if matched_word is not None:
+            response = vocabulary[matched_word]["resposta"]
+            print("Resposta:", response)
         else:
-            print("Palavra desconhecida.")
-            tag = input("Digite a tag correspondente: ")
-            translation = input("Digite a tradução em português: ")
+            print("Pergunta desconhecida.")
+            response = input("Digite a resposta para essa pergunta: ")
 
             vocabulary[preprocessed_word] = {
-                "tag": tag,
-                "traducao": translation
+                "resposta": response
             }
 
             save_vocabulary(vocabulary)
